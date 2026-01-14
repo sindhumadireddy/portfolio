@@ -11,7 +11,7 @@ const DEFAULT_PROFILE = {
   email: "sindhudev.in4@gmail.com",
   phone:"(346) 537-8178",
   linkedin: "https://linkedin.com/in/sindhuja-madireddy-1684143a1",
-  github: "https://github.com/your-handle",
+  github: "https://github.com/sindhuja-madireddy",
   resumeUrl: "/Resume.pdf",
   highlights: [
     "7+ years delivering enterprise-grade UI and backend integrations",
@@ -396,7 +396,7 @@ export default function App() {
         }}
       />
 
-      <div style={{ flex: 1 ,marginTop: 45}}>
+      <div style={{ flex: 1 ,marginTop: 50}}>
         <div style={{ fontSize: 34, fontWeight: 900, lineHeight: 1.1 }}>
           {profile.name}
         </div>
@@ -404,12 +404,7 @@ export default function App() {
           {profile.title}
         </div>
 
-        {/* Chips */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginTop: 12 }}>
-          
-          <Badge>{profile.location}</Badge>
-          
-        </div>
+        
       </div>
     </div>
 
