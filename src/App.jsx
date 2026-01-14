@@ -12,7 +12,7 @@ const DEFAULT_PROFILE = {
   phone:"(346) 537-8178",
   linkedin: "https://linkedin.com/in/sindhuja-madireddy-1684143a1",
   github: "https://github.com/sindhuja-madireddy",
-  resumeUrl: "/Resume.pdf",
+  resumeUrl: "./Resume.pdf",
   highlights: [
     "7+ years delivering enterprise-grade UI and backend integrations",
     "Strong in system design, performance optimization, and clean architecture",
@@ -374,6 +374,7 @@ export default function App() {
       ))}
     </div>
   </div>
+  </div>
 
 
       {/* Main */}
@@ -383,7 +384,7 @@ export default function App() {
     {/* Identity Row */}
     <div style={{ display: "flex", alignItems: "flex-start", gap: 18 }}>
       <img
-        src="/sindhu_image.jpg"
+        src= "./sindhu_image.jpg"
         alt={profile.name}
         style={{
           width: 200,
@@ -533,20 +534,16 @@ export default function App() {
           </div>
           <div style={{ opacity: 0.7 }}>Phone</div>
           <div style={{ marginTop: 6 }}>
-          <div style={{ marginTop: 6 }}>
-            <a style={{ color: "rgba(255,255,255,0.92)" }} href={`mailto:${profile.phone}`}>
+            <a style={{ color: "rgba(255,255,255,0.92)" }} href={`tel:${profile.phone}`}>
               {profile.phone}
             </a>
           </div>
-            
+          
           </div>
         </div>
-      </div>
     </Card>
   </section>
-      </div>
-      </div>
-      </div>
-
+  </div>
+  </div>
   );
   }
