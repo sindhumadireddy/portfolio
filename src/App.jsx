@@ -10,8 +10,7 @@ const DEFAULT_PROFILE = {
     "Building scalable, high-impact web platforms with a strong focus on performance, reliability, and product outcomes.",
   email: "sindhudev.in4@gmail.com",
   phone:"(346) 537-8178",
-  linkedin: "https://linkedin.com/in/sindhuja-madireddy-1684143a1",
-  github: "https://github.com/sindhuja-madireddy",
+  linkedin: "https://www.linkedin.com/in/sindhu-m-01272420a/",
   resumeUrl: "./Resume.pdf",
   highlights: [
     "7+ years delivering enterprise-grade UI and backend integrations",
@@ -416,14 +415,11 @@ export default function App() {
     {/* Buttons */}
     <div style={{ marginTop: 18, display: "flex", gap: 10, flexWrap: "wrap" }}>
       <Button href={profile.resumeUrl}>Download Resume</Button>
-      <Button variant="secondary" href={profile.linkedin}>
-        LinkedIn
-      </Button>
-      <Button variant="secondary" href={profile.github}>
-        GitHub
-      </Button>
       <Button variant="secondary" onClick={() => scrollToRef(contactRef)}>
         Contact
+      </Button>
+       <Button variant="secondary" href={profile.linkedin}>
+        LinkedIn
       </Button>
     </div>
   </section>
