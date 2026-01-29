@@ -10,8 +10,8 @@ const DEFAULT_PROFILE = {
     "Building scalable, high-impact web platforms with a strong focus on performance, reliability, and product outcomes.",
   email: "sindhudev.in4@gmail.com",
   phone:"(346) 537-8178",
-  linkedin: "https://linkedin.com/in/sindhu-01272420a/",
-  resumeUrl: "./SindhujaMadireddy_fullstack.pdf",
+  linkedin: "https://linkedin.com/in/sindhu234",
+  resumeUrl: "./SindhujaMadireddy_Resume.pdf",
   highlights: [
     "7+ years delivering enterprise-grade UI and backend integrations",
     "Strong in system design, performance optimization, and clean architecture",
