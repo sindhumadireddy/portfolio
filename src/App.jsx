@@ -4,7 +4,7 @@ import React, { useMemo, useRef, useState } from "react";
 
 
 const DEFAULT_PROFILE = {
-  name: "Sindhuja Madireddy",
+  name: "Sindhu M",
   title: "Full Stack Engineer",
   tagline:
     "Building scalable, high-impact web platforms with a strong focus on performance, reliability, and product outcomes.",
