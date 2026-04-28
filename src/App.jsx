@@ -11,7 +11,7 @@ const DEFAULT_PROFILE = {
   email: "sindhudev.in4@gmail.com",
   phone:"(346) 537-8178",
   linkedin: "https://linkedin.com/in/sindhu234",
-  resumeUrl: "./SindhujaMadireddy_Resume.pdf",
+  resumeUrl: "./Resume.pdf",
   highlights: [
     "7+ years delivering enterprise-grade UI and backend integrations",
     "Strong in system design, performance optimization, and clean architecture",
@@ -145,7 +145,7 @@ const DEFAULT_PROFILE = {
   ],
   education: [
     { degree: "Master's in Computer Science ", school: "University Of Houston Clear-Lake", year: "2024-2025" },
-    { degree: "Bachlor's  in Computer Science", school: "Kakatiya Institute Of Technology & Science", year: "2015-2019" },
+    { degree: "Bachelor's  in Computer Science", school: "Kakatiya University", year: "2015-2019" },
   ],
 };
 
@@ -430,18 +430,11 @@ export default function App() {
   <section ref={aboutRef}>
     <SectionTitle title="About Me" />
     <Card>
-      <div style={{ fontSize:18, lineHeight: 1.7, opacity: 0.9 }}>
-        <p>
-      Senior Java Full Stack Engineer with 8 years of hands-on experience designing, building, and supporting enterprise and cloud-native applications in production environments where reliability, security, and performance are critical. My background centers on delivering systems that operate consistently under real-world load, not just ideal conditions.</p>
-
-<p>I work across both the frontend and backend, developing user-facing application layers and backing them with well-structured Java and Spring Boot services. My experience includes designing secure REST APIs, implementing complex business logic, integrating databases, and ensuring seamless interaction between application layers in production. I focus on building solutions that are easy to extend, troubleshoot, and operate over time.</p>
-
-<p>My work has involved microservices and distributed system environments, handling performance bottlenecks, improving service reliability, and resolving production issues across multiple environments. I’m comfortable working with SQL databases, optimizing queries, and designing schemas that support scale, consistency, and long-term maintainability.</p>
-
-<p>I also have hands-on experience with event-driven architectures using Kafka, enabling asynchronous processing and system decoupling. From an infrastructure perspective, I’ve deployed and supported applications on AWS, working with Docker, Kubernetes (EKS), and CI/CD pipelines, and I’m involved in monitoring, logging, and production troubleshooting as part of regular operations.</p>
-
-<p>Beyond implementation, I actively contribute to design discussions, requirement analysis, code reviews, and ownership of modules within Agile teams. I value clean architecture, security-first thinking, and building systems that teams can trust in production.</p>
-
+      <div style={{ fontSize:18, lineHeight: 1.8, opacity: 0.9 }}>
+        <p>Java Full Stack Engineer with 8 years of experience building scalable enterprise platforms using Java, Spring Boot, React,Angular,AWS, Azure and GCP. 
+        Strong expertise in designing microservices, high-performance REST APIs, distributed systems, and cloud-native applications handling critical workloads. 
+        Extensive experience modernizing legacy systems, improving performance, implementing event-driven architectures with Kafka.Hands-on experience with CI/CD, Kubernetes, observability, and production-scale system reliability.
+         Worked with AI-assisted development tools including Claude Code, Copilot, Amazon Q, and prompt engineering to improve delivery speed and code quality.</p>
       </div>
     </Card>
   </section>
